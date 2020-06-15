@@ -6,11 +6,12 @@
     "\\app\\Http\\Controllers",
     "\\app\\Http\\Controllers\\Auth",
     "\\database",
+    "\\database\\migrations",
     "\\resources",
     "\\resources\\views",
     "\\resources\\views\\auth",
     "\\resources\\views\\auth\\passwords"
   ],
-  "SelectedNode": "\\database\\migrations\\2020_06_11_000001_create_users_table.php",
+  "SelectedNode": "\\app\\User.php",
   "PreviewInSolutionExplorer": false
 }
