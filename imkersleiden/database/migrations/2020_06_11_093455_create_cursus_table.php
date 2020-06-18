@@ -15,7 +15,7 @@ class CreateCursusTable extends Migration
     {
         Schema::create('cursus', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('naam');
+            $table->string('name');
             $table->text('description');
             $table->date('startdate');
             $table->date('enddate');
