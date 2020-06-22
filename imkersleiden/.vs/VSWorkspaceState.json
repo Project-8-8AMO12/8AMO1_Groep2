@@ -10,7 +10,8 @@
     "\\resources",
     "\\resources\\views",
     "\\resources\\views\\auth",
-    "\\resources\\views\\auth\\passwords"
+    "\\resources\\views\\auth\\passwords",
+    "\\routes"
   ],
   "SelectedNode": "\\app\\User.php",
   "PreviewInSolutionExplorer": false
