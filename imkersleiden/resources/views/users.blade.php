@@ -20,9 +20,9 @@
                     <td>{{ $data->name }}</td>
                     <td>{{ $data->email }}</td>
                     <td>{{ $data->role }}</td>
-                    <td><button type="button" class="btn btn-primary">Edit</button></td>
+                    <td><a href="{{ route('user', $data->id ) }}" role="button">Edit</a></td>
                     @if($data->id != 1)
-                        <td><a href="/users/delete/{{$data->id}}" role="button">Delete</a></td>
+                        <td><a href="{{ route('delete_user', $data->id ) }}" role="button">Delete</a></td>
                     @endif
                 </tr>
             @endforeach

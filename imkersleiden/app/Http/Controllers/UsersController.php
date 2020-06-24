@@ -19,9 +19,18 @@ class UsersController extends Controller
         return view('users', ['users' => $users]);
     }
 
+    public function user($id) {
+        $user = DB::table('users')->where('id', '=', $id)->get();
+        return view('user', ['user' => $user]);
+    }
+
     public function delete($id) {
         DB::table('users')->where('id', '=', $id)->delete();
         return redirect('/users');
     }
 
+    public function edit(Request $request) {
+        DB::table('users')->where('id', '=', $request->id)->update(['username' => $request->username, 'name' => $request->name, 'email' => $request->email, 'role' => $request->role]);
+        return redirect('/users');
+    }
 }
