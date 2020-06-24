@@ -2,7 +2,8 @@
 
 @section('content')
 <div class="container">
-    <table class="table">
+    <a class="btn btn-success" href="{{ route('new_user') }}">New User</a>
+    <table class="table mt-3">
         <thead>
             <th>ID</th>
             <th>Username</th>

@@ -23,6 +23,10 @@ Route::get('/users', 'UsersController@index')->name('users');
 
 Route::get('/users/delete/{id}', ['uses' => 'UsersController@delete'])->name('delete_user');
 
-Route::get('/users/{id}', ['uses' => 'UsersController@user'])->name('user');
+Route::get('/users/single/{id}', ['uses' => 'UsersController@user'])->name('user');
+
+Route::get('/users/new', 'UsersController@newUser')->name('new_user');
+
+Route::post('/users/new/create', 'UsersController@create')->name('create_user');
 
 Route::post('/users/edit/{id}', ['uses' => 'UsersController@edit'])->name('edit_user');
