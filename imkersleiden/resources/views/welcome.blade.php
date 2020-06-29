@@ -58,7 +58,7 @@ $('.navbar-light .dmenu').hover(function () {
             .top-right {
                 position: absolute;
                 top: 18px;
-            
+
             }
 
             .content {
@@ -78,7 +78,7 @@ $('.navbar-light .dmenu').hover(function () {
                 text-transform: uppercase;
             }
 
-            
+
 
             .linkje{
                 margin-left: 5vw;
@@ -90,6 +90,58 @@ $('.navbar-light .dmenu').hover(function () {
 ul li a{
     margin-right: 20px;
 }
+<--------------------------------------------->
+ @import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald');
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        h1 {
+            font-family: 'Oswald', sans-serif;
+        }
+
+        p {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .image-wrap {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .banner-content {
+            position: absolute;
+            z-index: 99999;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            text-align: center;
+            font-size: 1.5em;
+            line-height: 1.5;
+        }
+
+        .img-content img {
+            width: 100%;
+            height: 100vh;
+            display: block;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: yellow;
+            opacity: .8;
+            z-index: 999;
+            height: 100%;
+        }
+
 
         </style>
     </head>
@@ -144,18 +196,19 @@ ul li a{
           </div>
         </div>
       </nav>
-            
 
-          
 
-            
-        </div>
-        <div>
-            <div class="content">
-                  <div class="title">
-                     Imkersleiden
-                 </div>
-            </div>
+           <div class="image-wrap">
+                  <div class="img-content">
+                      <img src="#" alt="">
+                  </div>
+                  <div class="overlay"></div>
+              </div>
+              <div class="banner-content">
+                  <h1>ImkersLeiden</h1>
+              </div>
+
+
         </div>
     </body>
 </html>
