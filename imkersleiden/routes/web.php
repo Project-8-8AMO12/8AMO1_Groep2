@@ -33,3 +33,5 @@ Route::post('/users/new/create', 'UsersController@create')->name('create_user');
 
 Route::post('/users/edit/{id}', ['uses' => 'UsersController@edit'])->name('edit_user');
 
+Route::post('/contact', ['uses' => 'ContactFormController@mailing'])->name('send_mail');
+
