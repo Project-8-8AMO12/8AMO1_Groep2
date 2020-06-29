@@ -200,7 +200,7 @@ ul li a{
 
            <div class="image-wrap">
                   <div class="img-content">
-                      <img src="#" alt="">
+                      <img src="/images/Bee-lovely-banner.png" alt="">
                   </div>
                   <div class="overlay"></div>
               </div>
