@@ -17,7 +17,11 @@ Route::get('/', function () {
 
 Auth::routes();
 
+//admin home
+
 Route::get('/home', 'HomeController@index')->name('home');
+
+//user routes
 
 Route::get('/users', 'UsersController@index')->name('users');
 
@@ -30,3 +34,7 @@ Route::get('/users/new', 'UsersController@newUser')->name('new_user');
 Route::post('/users/new/create', 'UsersController@create')->name('create_user');
 
 Route::post('/users/edit/{id}', ['uses' => 'UsersController@edit'])->name('edit_user');
+
+//cursus routes
+
+Route::get('/cursussen', 'CursusController@index')->name('cursussen');
