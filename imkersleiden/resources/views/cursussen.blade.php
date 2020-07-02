@@ -35,7 +35,7 @@
             </div>
         @endforeach
     </div>
-    <div class="row">
+    <div class="row mt-5">
         <h2 class="h2" style="color:gold">Cursisten moeten om deze cursus te kunnen volgen in het bezit zijn van:</h2>
         <ul class="h4">
             <li>beschermende kleding</li>
