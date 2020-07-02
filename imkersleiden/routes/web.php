@@ -17,7 +17,11 @@ Route::get('/', function () {
 
 Auth::routes();
 
+//admin home
+
 Route::get('/home', 'HomeController@index')->name('home');
+
+//user routes
 
 Route::get('/users', 'UsersController@index')->name('users');
 
@@ -33,6 +37,10 @@ Route::post('/users/new/create', 'UsersController@create')->name('create_user');
 
 Route::post('/users/edit/{id}', ['uses' => 'UsersController@edit'])->name('edit_user');
 
-Route::post('/contact', ['uses' => 'ContactFormController@mailing'])->name('send_mail');
+//cursus routes
 
+Route::get('/cursussen', 'CursusController@index')->name('cursussen');
+
+//contact routes
+Route::post('/contact', ['uses' => 'ContactFormController@mailing'])->name('send_mail');
 

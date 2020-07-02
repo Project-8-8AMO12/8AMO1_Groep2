@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\config",
-    "\\database",
-    "\\database\\migrations",
+    "\\bootstrap",
+    "\\public",
+    "\\public\\css",
     "\\resources",
     "\\resources\\views",
     "\\resources\\views\\auth",
@@ -11,6 +11,6 @@
     "\\resources\\views\\layouts",
     "\\routes"
   ],
-  "SelectedNode": "\\resources\\views\\layouts\\app.blade.php",
+  "SelectedNode": "\\resources\\views\\cursussen.blade.php",
   "PreviewInSolutionExplorer": false
 }
