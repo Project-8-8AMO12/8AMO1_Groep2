@@ -25,6 +25,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/users', 'UsersController@index')->name('users');
 
+Route::get('/contact', 'ContactFormController@index')->name('contact');
+
 Route::get('/users/delete/{id}', ['uses' => 'UsersController@delete'])->name('delete_user');
 
 Route::get('/users/single/{id}', ['uses' => 'UsersController@user'])->name('user');
@@ -38,3 +40,7 @@ Route::post('/users/edit/{id}', ['uses' => 'UsersController@edit'])->name('edit_
 //cursus routes
 
 Route::get('/cursussen', 'CursusController@index')->name('cursussen');
+
+//contact routes
+Route::post('/contact', ['uses' => 'ContactFormController@mailing'])->name('send_mail');
+

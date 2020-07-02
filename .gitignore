@@ -21,3 +21,10 @@ Homestead.yaml
 Homestead.json
 /.vagrant
 .phpunit.result.cache
+.idea/8AMO1_Groep2.iml
+.idea/misc.xml
+.idea/php.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+imkersleiden/.idea/workspace.xml
