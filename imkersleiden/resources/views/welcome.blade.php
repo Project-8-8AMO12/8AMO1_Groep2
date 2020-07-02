@@ -157,23 +157,13 @@ ul li a{
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Login</a>
             </li>
-            <li class="nav-item dropdown dmenu">
-            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-              Our Service
-            </a>
-            <div class="dropdown-menu sm-menu">
-              <a class="dropdown-item" href="#">service2</a>
-              <a class="dropdown-item" href="#">service 2</a>
-              <a class="dropdown-item" href="#">service 3</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Ons</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Call</a>
+            <a class="nav-link" href="#">Evenementen</a>
           </li>
            <!-- <li class="nav-item dropdown dmenu">
             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
@@ -200,7 +190,7 @@ ul li a{
 
            <div class="image-wrap">
                   <div class="img-content">
-                      <img src="/images/Bee-lovely-banner.png" alt="">
+                      <img src="images/Bee-lovely-banner.png" alt="">
                   </div>
                   <div class="overlay"></div>
               </div>
